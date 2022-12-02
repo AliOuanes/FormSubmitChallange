@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+@font-face {
+    font-family: 'Quicksand Regular';
+    src: url('assets/font/Quicksand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand Bold';
+    src: url('assets/font/Quicksand-Bold.ttf') format('truetype');
+}
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: #666;
+  font-size: 13px;
+  margin: 0; 
+  background-image: url(src/assets/img/bg-form.jpg);
+}
+input, textarea, select, button {
+    font-family: "Muli-Regular";
+    color: #333;
+    font-size: 13px; 
+}
+  
+p, h1, h2, h3, h4, h5, h6, ul {
+    margin: 0; 
+}
+
+  
+ul {
+    padding-left: 0;
+    margin-bottom: 0; 
+}
+  
+a:hover {
+    text-decoration: none; 
+}
+  
+:focus {
+    outline: none; 
+}
+
